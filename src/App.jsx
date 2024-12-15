@@ -14,7 +14,7 @@ function App() {
     <BrowserRouter>
       <Header/>
       <Routes>
-        <Route path='/dashboard' element={<Dashboard/>}/>
+        <Route index element={<Dashboard/>}/>
         <Route path='/orders' element={<Orders/>}/>
         <Route path='/menus' element={<MenuPage/>}/>
         <Route path='/menu/:menuId' element={<MenuDetails/>}/>
